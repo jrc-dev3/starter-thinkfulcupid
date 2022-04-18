@@ -59,7 +59,7 @@ img {
 
 header {
   background-color: #83092e;
-  padding: 20px 20px 0 20px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -68,7 +68,7 @@ header {
 
 .logo {
   font-family: "Tangerine", cursive;
-  font-size: 2rem;
+  font-size: 3rem;
   color: #ecdbc9;
 }
 
@@ -145,6 +145,11 @@ footer p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  .logo {
+    font-size: 2rem;
+
   }
 
   .display_flex {
