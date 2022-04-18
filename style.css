@@ -68,7 +68,7 @@ header {
 
 .logo {
   font-family: "Tangerine", cursive;
-  font-size: 72px;
+  font-size: 2rem;
   color: #ecdbc9;
 }
 
@@ -140,7 +140,7 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media screen and (min-width: 480px)  { 
+@media only screen and (min-width: 480px)  { 
   header {
     display: flex;
     flex-direction: row;
